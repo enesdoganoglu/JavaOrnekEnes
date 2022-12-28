@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.4.1" class="java.beans.XMLDecoder">
+ <object class="com.bilgeadam.serialization.xml.serialization.DVD" id="DVD0">
+  <void property="movies">
+   <void method="add">
+    <object class="com.bilgeadam.serialization.xml.serialization.Movie">
+     <void property="cast">
+      <string>Alpacino</string>
+     </void>
+     <void property="directors">
+      <string>Nolan</string>
+     </void>
+     <void property="name">
+      <string>Film1</string>
+     </void>
+     <void property="released">
+      <int>2002</int>
+     </void>
+     <void property="runtime">
+      <string>120</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.bilgeadam.serialization.xml.serialization.Movie">
+     <void property="cast">
+      <string>Leonardo</string>
+     </void>
+     <void property="directors">
+      <string>yönetmen2</string>
+     </void>
+     <void property="name">
+      <string>Film2</string>
+     </void>
+     <void property="released">
+      <int>2002</int>
+     </void>
+     <void property="runtime">
+      <string>110</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.bilgeadam.serialization.xml.serialization.Movie">
+     <void property="cast">
+      <string>Oyuncu3</string>
+     </void>
+     <void property="directors">
+      <string>yönetmen3</string>
+     </void>
+     <void property="name">
+      <string>Film3</string>
+     </void>
+     <void property="released">
+      <int>2002</int>
+     </void>
+     <void property="runtime">
+      <string>100</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
